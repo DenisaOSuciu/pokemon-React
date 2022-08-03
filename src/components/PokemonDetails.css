@@ -1,0 +1,88 @@
+.details-container {
+  
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    min-width: 360px;
+    text-align: center;
+    border-radius: 30px;
+    background-color:#E0F1FD;
+    margin-right: 120px;
+    margin-left: 120px;
+  
+    
+  
+  }
+  .details-container img {
+    width: 260px;
+    height: 240px;
+  }
+
+
+  .rock {
+    background-color: rgb(148, 81, 81);
+  }
+  .ghost {
+    background-color: rgb(247, 247, 247);
+  }
+  .electric {
+    background-color: rgb(255, 255, 161);
+  }
+  .bug {
+    background-color: #a19582;
+  }
+  .poison {
+    background-color: #e0a7f6;
+  }
+  .normal {
+    background-color: #F4F4F4;
+  }
+  .fairy {
+    background-color: rgba(255, 192, 203, 0.863);
+  }
+  .fire {
+    background-color: #d16350;
+  }
+  .grass {
+    background-color:#9ddfc0;
+  }
+  .water {
+    background-color:#79b2db;
+  }
+
+ 
+  
+
+.type-container {
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    justify-content: right;
+    min-width: 70px;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 10px ;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.089);
+  }
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+
+  .rectangle {
+    display: inline-block;
+   padding: 10px;
+    border: 2px solid black;
+  }
